@@ -19,8 +19,9 @@
       <div id="unity-warning"> </div>
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
+        <div id="bluesechi-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">TeaBagging Arisu</div>
+        <div id="unity-build-title">이렇게 해야지 아리스!</div>
       </div>
     </div>
     <script>
@@ -42,7 +43,7 @@
           warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
         }
         var div = document.createElement('div');
-        div.innerHTML = msg;
+        div.innerHTML = '오류가 발생했습니다: ' + msg;
         warningBanner.appendChild(div);
         if (type == 'error') div.style = 'background: red; padding: 10px;';
         else {
