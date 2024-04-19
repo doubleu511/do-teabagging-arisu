@@ -9,6 +9,8 @@ body {
     padding: 0;
     margin: 0;
     background-color:#4c4345;
+    background-image: url('tile.png');
+    background-repeat: repeat;
     font-family: 'GyeonggiTitleM';
 }
 
